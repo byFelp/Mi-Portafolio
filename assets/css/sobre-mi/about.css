@@ -1,0 +1,63 @@
+.about{
+    background-color: rgba(234, 242, 253, 1);
+    color: rgba(70, 70, 70, 1);
+}
+
+.about__title{
+    font-weight: bolder;
+}
+
+.about__paragraph{
+    font-size: 1rem;
+}
+/*Mobile*/
+@media (min-width: 425px) {
+    .about{
+    padding: 1rem;
+    }
+    .about__title{
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 0;
+    }
+
+    .about__paragraph{
+    font-size: 14px;
+    }
+    }
+
+    /*Tablet*/
+@media (min-width: 768px) {
+    .about{
+    padding: 2rem;
+    }
+    .about__title{
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 0;
+    }
+
+    .about__paragraph{
+    font-size: 14px;
+    }
+    }
+
+/*Laptop*/
+@media (min-width: 1024px) {
+    .about{
+    background-color: rgba(234, 242, 253, 1);
+    padding: 4rem 30rem 4rem 9.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(70, 70, 70, 1);
+    }
+
+    .about__title{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .about__paragraph{
+        font-size: 1rem;
+    }
+    }

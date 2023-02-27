@@ -1,0 +1,117 @@
+.skills{
+    color: rgba(70, 70, 70, 1);
+}
+
+.skills__title{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.skills__box{
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cliente{
+    width: 50px;
+    height: 50px;   
+}
+
+.skills__name{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+    .skills{
+    padding: 2rem;
+    }
+
+    .skills__title{
+    font-size: 22px;
+    margin: 0;
+    }
+
+    .skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .skills__box{
+    width: 156px;
+    height: 118px;
+    margin: 8px;
+    
+    }
+
+    .skills__ul{
+        padding: 16px;
+        margin: 0;
+    }
+    }
+
+    /*Tablet*/
+@media (min-width: 768px) {
+    .skills{
+    padding: 2rem;
+    }
+
+    .skills__title{
+    font-size: 22px;
+    margin: 0;
+    }
+
+    .skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .skills__box{
+    width: 218px;
+    height: 118px;
+    margin: 8px;
+    }
+
+    .skills__ul{
+        padding: 16px;
+        margin: 0;
+    }
+    }
+
+/*Laptop*/
+@media (min-width: 1024px) {
+    .skills{
+    padding: 0 2rem 0 9.5rem;
+    margin-top: 2rem;
+    }
+
+    .skills__title{
+        font-size: 2rem;
+    }
+
+    .skills__line{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .skills__box{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 176px;
+        height: 174px;
+        margin: 1rem;
+    }
+
+    .cliente{
+        width: 50px;
+        height: 50px;   
+    }
+
+    .skills__name{
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    }
